@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../CSS/la_base.css" />
+    <link rel="stylesheet" href="../CSS/entete.css" />
+    <link rel="stylesheet" href="../CSS/page_suivante.css" />
+    <link rel="stylesheet" href="../CSS/sondage.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Famille nombreuse</title>
+	</head>
+	<body>
+
+        <div class="bloc">
+			
+            <div class= "header">
+                    
+                <div class="header_nom">
+                    <img src="../image_video/logosb.png" width="100" height="auto" alt="log" title="log"/>
+                    <h1 class="title"> Famille nombreuse </h1>
+                </div>
+                <div class="header_menu">
+                    <a href="../FamilleNmbreuse.html" class="_menu">Accueil</a>
+                    <a href="sommaire.html" class="_menu">Sommaire</a>
+                    <a href="àpropos.html" class="_menu">À propos </a>
+                        
+                </div>
+                        
+                <div class="menu">
+                    <!-- Utilisation d'une checkbox -->
+                    <input type="checkbox" id="hamburger">
+                    <!-- Label de la checkbox -->
+                    <label id="hamburger-logo" for="hamburger">☰</label>
+                    <!-- Le reste du menu -->
+                    <nav>
+                        <a href="../FamilleNmbreuse.html">Accueil</a>
+                        <a href="sommaire.html">Sommaire</a>
+                        <a href="àpropos.html">À propos</a>
+                            
+                    </nav>
+                    
+                </div>
+            </div>
+                
+        </div>
+    
+
+
+    <main>
+        <div class=yy>
+            <div class=oo >
+                <div class=titre> Sondage </div>
+                <h2>J'ai effectué un sondage auquel j'aimerai que tu y participes. Fais-moi connaître ton opinion ci-dessous stp. Merci pour ta participation !</h2>
+            </div>
+            <div class=uu> F&S = Frères et soeurs
+            </div><br>
+            <form method="post" action= "page_de_Traitement.php">
+                <p>1. Quel est ton prénom, surnom, ou pseudo ? </p>
+                <label for="nom"></label>
+                <br>
+                <input type="text" name="nom" id="nom" placeholder="prénom"/><br>
+                <br />
+                <p>2. Quel est ton âge ?</p>
+                <label for="age"></label>
+                <br> <input type="number" name="age" id= "age" placeholder="âge"/>
+                <br><br>
+                <p>3. Tu es :</p><br>
+                <input type= "checkbox" name= "fille" id= "fille" /> 
+                <label for="fille">Une fille </label><br>
+                <input type= "checkbox" name= "gars" id= "gars" /> 
+                <label for="gars">Un gars </label><br>
+                <br> 
+                <p>4. Tu es fils/fille :</p><br>
+                <input type= "checkbox" name= "unique" id= "unique" /> 
+                <label for="unique">Unique </label><br>
+                <input type= "checkbox" name= "avcfs" id= "avcfs" /> 
+                <label for="avcfs">Avec des F&S </label><br>
+                <br>
+                <p> 5. Si tu as des F&S, combien as-tu de : </p> 
+                <label for="combien"></label>
+                <br> <label> soeurs ? :</label> <input type="number" name="combien" id= "combien" placeholder="nmbre de soeurs"  /><br>
+                <label>frères ? :</label> <input type="number" name="comb" id= "comb" placeholder="nmbre de frères"  /><br>
+                <br>
+                <p>6. Si tu as des F&S, quel est ta place au sein de ta famille :</p><br>
+                <input type= "checkbox" name= "ainé" id= "ainé" /> 
+                <label for="ainé">Ainé(e)</label><br>
+                <input type= "checkbox" name= "cadet" id= "cadet" /> 
+                <label for="cadet">Cadet(te) </label><br>
+                <input type= "checkbox" name= "benjamin" id= "benjamin" /> 
+                <label for="benjamin">Benjamin(e) </label><br>
+                <br>
+                <p>7. Si tu as des F&S, es-tu complice avec eux ? </p><br>
+                <input type= "checkbox" name= "oui" id= "oui" /> 
+                <label for="oui">Oui </label><br>
+                <input type= "checkbox" name= "non" id= "non" /> 
+                <label for="non">Non </label><br>
+                <br>
+                <p>8. As-tu des animaux de compagnies ? (aucun rapport avec le sujet mais je trop curieuse sorryy)</p><br>
+                <input type= "checkbox" name= "ouii" id= "ouii" /> 
+                <label for="ouii">Ouiii </label><br>
+                <input type= "checkbox" name= "nn" id= "nn" /> 
+                <label for="nn">Non, mais j'aimerai bien en avoir ! </label><br>
+                <input type= "checkbox" name= "noon" id= "noon" /> 
+                <label for="noon">Non, et j'en veux pas. </label><br>
+                <br>  
+                <p>9. T'es tu sentis visé(e) dans certaine partie du site ? </p><br>
+                <input type= "checkbox" name= "pdt" id= "pdt" /> 
+                <label for="pdt">Alors là, pas du tout ! Rien à voir avec la vie que je mène ! </label><br>
+                <input type= "checkbox" name= "unp" id= "unp" /> 
+                <label for="unp">Un peu </label><br>
+                <input type= "checkbox" name= "bcp" id= "bcp"/> 
+                <label for="bcp">Beaucoup </label><br>
+                <input type= "checkbox" name= "trp" id= "trp" /> 
+                <label for="trp">Mais totalement ! </label><br>
+                <br>  
+                <p>10. Ce site web a-t-il été utile pour toi ? Quelques améliorations à me proposer ? </p>
+                <label for="amelio"></label>
+                <br />
+                <textarea name="amelio" id= "amelio" rows="5" cols="40">
+                Dis-moi tout !
+                </textarea> <br>
+                <br>
+                <input type= "reset" value= "envoyer" /> 
+                
+
+
+                
+
+                
+                
+
+
+
+            </form>
+
+        <p class="ss">
+                    </p>
+
+
+                </div>  
+    <div class=paginage> 
+
+        <div id="pagination-digg">
+            <a href="page4.html" class="precedent"> « Précédent</a>
+        </div>
+    
+    </div>
+
+
+</main>
+
+    </body>
+</html>

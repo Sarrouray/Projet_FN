@@ -1,0 +1,64 @@
+.uu {
+    text-align: center;
+}
+
+h1{ 
+    font-size: 50px;
+    text-align: center;
+    color:  #8C7B6C;
+    border-bottom: 3px solid #BFAEA4  ;
+    display: inline;
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 10px;
+}
+.commentaire {
+    
+    box-shadow: 0 10px 10px #BFAEA4;
+    border-radius: 5px;
+    background-color: #D9CEC7;
+    margin-bottom: 30px;
+    margin-right: 10%;
+}
+.com{
+    margin-left: 20px;
+    padding: 10px;
+    
+}
+
+input {
+    border-radius: 5px;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+textarea{
+    border-radius: 5px;
+    font-family: 'Indie Flower', cursive;
+   
+}
+
+.srh{
+    font-family:'Kaushan Script', cursive;
+    font-size: 21px;
+    color: white;
+}
+
+.ysf{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+label{
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+}
+
+::placeholder {
+    font-family: 'Indie Flower', cursive;
+}
+
+.logo{
+    text-align: center;
+}

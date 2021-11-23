@@ -1,0 +1,52 @@
+input {
+    border-radius: 5px;
+
+}
+
+textarea{
+    border-radius: 5px;
+    font-family: 'Indie Flower', cursive;
+}
+
+p{
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+}
+
+label{
+    font-family: 'Indie Flower', cursive;
+    font-size: 17px;
+}
+
+::placeholder {
+    font-family: 'Indie Flower', cursive;
+}
+
+.titre{
+    font-size: 50px;
+    text-align: center;
+    color:  #8C7B6C;
+    border-bottom: 3px solid #BFAEA4  ;
+    display: inline;
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 10px;
+}
+h2{
+    font-family: 'Neucha', cursive;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #e2d6cf ;
+    box-shadow: 10px 10px 10px #d3c4bb;
+}
+
+.oo {
+    text-align: center;
+}
+
+.uu{
+    font-family: 'Neucha', cursive;
+    font-size: 17px;
+}

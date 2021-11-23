@@ -1,0 +1,69 @@
+.paginage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#pagination-digg {
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+#pagination-digg a {
+    border:solid 1px black;
+    
+    
+}
+ 
+#pagination-digg a:link, #pagination-digg a:visited 
+{
+    color:black;
+    display:block;
+    float:left;
+    padding:3px 6px;
+    text-decoration:none;
+    border-radius: 7px;
+}
+ 
+#pagination-digg a:hover
+{
+    border:solid 1px #8C7B6C;
+    color:#8C7B6C ;
+}
+
+
+
+#pagination-digg2 {
+    padding-bottom: 0px;
+    padding-right: 10px;
+}
+#pagination-digg2 a
+{
+    border:solid 1px black;
+    
+}
+ 
+#pagination-digg2 a:link, #pagination-digg2 a:visited 
+{
+    color:black;
+    display:block;
+    float:right;
+    padding:3px 6px;
+    text-decoration:none;
+    border-radius: 7px;
+}
+ 
+#pagination-digg2 a:hover
+{
+    border:solid 1px #8C7B6C;
+    color:#8C7B6C ;
+}
+
+/* <div id="pagination-digg">
+		<div class="cases">
+			<a href="#"class="precedent"> « Précédent</a>
+			<a href="#"class="suivant">Suivant »</a>
+		</div>
+	</div>
+*/

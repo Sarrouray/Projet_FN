@@ -1,0 +1,41 @@
+.oo{
+    text-align: center;    
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color:  #8C7B6C;
+    border-bottom: 3px solid #BFAEA4  ;
+    display: inline;
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 10px;
+    
+}
+main img{
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #858585;
+    height:250px; 
+    width:auto;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+
+
+@media screen and (max-width:888px){
+    
+
+    main img{
+    width: auto;
+    height: 150px;
+    }
+    h1{
+        font-size: 48px;
+    }
+}

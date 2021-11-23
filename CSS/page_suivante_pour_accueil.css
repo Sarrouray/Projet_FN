@@ -1,0 +1,33 @@
+
+
+#pagination-digg2 {
+    padding-bottom: 25px;
+    padding-right: 10px;
+    display: block;
+    text-align: right;
+    
+    
+}
+
+#pagination-digg2 a
+{
+    border:solid 1px black;
+    
+}
+ 
+#pagination-digg2 a:link, #pagination-digg2 a:visited 
+{
+    color:black;
+    display:block;
+    float:right;
+    padding:3px 6px;
+    text-decoration:none;
+    border-radius: 7px;
+}
+ 
+#pagination-digg2 a:hover
+{
+    border:solid 1px #8C7B6C;
+    color:#8C7B6C ;
+}
+

@@ -1,0 +1,243 @@
+/* entête */
+.header {
+    box-shadow: 0 5px 5px rgba(0,0,0, .3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height:70px;
+    background-color : #BFAEA4;
+    border-bottom: 2px solid white;
+    padding-bottom: 1px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.header_nom{
+    align-items: center;
+    display: flex;
+}
+
+.title{
+    padding-top: 0%;
+    color:white;
+    font-size: 50px;
+    font-family: "Permanent Marker";
+    margin-left: 400px;
+    display: flex;
+}
+
+.header_menu{
+    align-items: center;
+   
+    margin-right: 20px;
+}
+
+.logo-nom {
+    color: white;
+    font-size: 28px;
+    font-family:'Kaushan Script', cursive;
+    font-style: italic;
+    margin-left: 40px;
+}
+
+._menu{
+    margin-left: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Neucha', cursive;
+    font-size: 17px;
+}
+
+.header_menu a:hover 
+{
+   text-decoration: underline;
+   color:#8C7B6C;
+   text-decoration: none;
+}
+
+
+  
+.menu {
+    /* Pour que le menu reste en place quand on scroll */
+    /* Pour que le menu ne soit pas sur le texte et que ce dernier puisse être sélectionné */
+    width: 0px;
+    position: fixed;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 20px;
+}
+  
+ 
+#hamburger {
+    /* Pour que la checkbox ne s'affiche pas */
+    display: none;
+}
+  
+#hamburger-logo {
+    /* Pour que le curseur soit un pointeur */
+    cursor: pointer;
+    background: #D9CEC7;
+    
+    display: block;
+    color: white;
+    /* Pour que le menu hamburger s'affiche toujours */
+    text-align: right;
+    /* Pour que le menu hamburger soit "rangé" par défaut */
+    transform: translateX(0px);
+    padding: 19px;
+
+}
+@media screen and (max-width:1360px){
+    .title{
+        margin-left: 200px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:888px){
+    .title{
+        margin-left: 100px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:514px){
+    .title{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:888px){
+   .logo-nom{
+       font-size: 15px;
+       margin-left: 10px;
+   }
+    .header_menu {
+        display: none;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+
+        background:#D9CEC7;
+        overflow: hidden;
+        /* Pour que les liens soient "rangés" par défaut */
+        transform: translateX(220px);
+
+        position: absolute;
+            width: 180px;
+            height: 150px;
+            top: 0px;
+            right: 0px;
+    }
+    
+    #hamburger-logo,
+    nav {
+        /* Pour qu'il y ait une animation */
+        transition: 1s;
+    }
+    
+    /* Lorsque #hamburger est coché, le #hamburger-logo et le nav qui sont dans le même parent changent de propriété */
+    #hamburger:checked ~ nav {
+        /* Changement de la position pour afficher les menus */
+        transform: translate(30px);
+    }
+    #hamburger:checked ~ #hamburger-logo {
+        /* Changement de la position pour afficher les menus */
+        transform: translate(-170px);
+    }
+
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+    nav a:hover {
+        text-decoration: underline;
+        color: #BFAEA4;
+    }
+}
+
+@media  screen and (min-width:888px){
+    .menu{
+        display: none;
+    }
+}
+
+
+
+
+/* le_bas */
+
+#le_bas {
+  
+    height: 50px; 
+    background-color: #aa9181;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: block;
+   
+}
+
+.woui{
+    margin-top: 10px;
+    display: flex;
+}
+
+.zz{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    height: 28px; 
+    width: 70px;
+
+
+}
+.yf{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    height: 28px; 
+    width: 70px;
+}
+
+.kk{
+    
+    margin-top: 7px;
+    margin-left: 100px;
+    
+    
+}
+@media screen and (max-width:888px){
+    #le_bas {
+  
+        margin-left: 0%;
+        margin-right: 0%;
+       
+    }
+    
+
+    
+    .zz{
+        height: 10px; 
+        width: 10px;
+        
+    
+    
+    }
+    .yf{
+        height: 10px; 
+        width: 10px;
+        margin-left: 100px;
+    }
+    
+}

@@ -1,0 +1,53 @@
+main   { overflow-x: auto;
+}
+.oo{
+    text-align: center;
+}
+
+.titre{
+    font-size: 50px;
+    text-align: center;
+    color:  #8C7B6C;
+    border-bottom: 3px solid #BFAEA4  ;
+    display: inline;
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 10px;
+    
+}
+p {
+    font-family: 'Indie Flower', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+table {
+    font-family: 'Indie Flower', cursive;
+    border-collapse:collapse;
+    width:100%;
+    
+
+}
+th, td {
+    border:1px solid black;
+    width:20%;
+}
+td {
+    text-align:center;
+}
+caption {
+    font-weight:bold;
+    font-size:19px;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #BFAEA4;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+

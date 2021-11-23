@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+
+html {
+	background-image:linear-gradient(#f0e7e2, #BFAEA4);
+}
+
+body{
+	overflow-x: hidden;
+}
+.bloc {
+	width: 90%;
+	margin: auto;
+	position: relative;
+	z-index: 999;	
+}
+
+main{
+    margin-bottom: 15px;
+	margin-top: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+
+    overflow-wrap: break-word;
+    background-color : white;
+    padding: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    box-shadow: 0 5px 5px rgba(0,0,0, .3);
+}
+
+.yy{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media screen and (max-width: 1170px){
+    main{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
